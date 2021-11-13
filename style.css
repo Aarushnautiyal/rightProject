@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.box {
+  background-color: #c4c4c4;
+  border-radius: 2rem;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 9em auto;
+  position: relative;
+}
+
+#log {
+  position: absolute;
+  margin-left: 40em;
+  height: 50vh;
+  width: 30vh;
+  overflow: auto;
+  background: chartreuse;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 2px;
+  margin: 2px;
+}
+p {
+  text-align: center;
+  border: 1px solid;
+  margin-bottom: 2px;
+}
