@@ -25,13 +25,13 @@ input{
   background-color: #afaeae;
   outline: none;
   width: 25vw;
-  height: 6vh;
+  /* height: 6vh; */
 }
 
 button{
   border: none;
-  height: 6vh;
-  width: 20vw;
+  height: 4vh;
+  width: 10vw;
   padding: .4em;
   text-transform: uppercase;
   border-radius: 2.5em;
@@ -41,7 +41,7 @@ button{
   letter-spacing: .2em;
 }
 button:hover{
-    background-color: #afaeae;
+    background-color: #c9bfbf;
     color: black;
     border: 2px solid black;
     box-shadow: 1px 2px 5px rgb(56, 14, 14);
@@ -55,4 +55,11 @@ p{
     height: 5vh;
     text-align: center;
     padding: 1.5vh;
+}
+
+@media (max-width:1000px) {
+    button{
+        width: 20vh;
+        he
+    }
 }
