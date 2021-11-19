@@ -15,7 +15,7 @@ const add = (render) => {
     // box.appendChild(para);
     box.innerHTML += `<p>${fed}</p>`;
     list.push(fed);
-    render();
+    // render();
     fed = "";
   } else {
     alert("please try to feed something before entering");
